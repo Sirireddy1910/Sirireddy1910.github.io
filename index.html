@@ -1,166 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DESIREDDY SIRIREDDY | Portfolio</title>
-
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #0f0f0f;
-    color: #ffffff;
-}
-
-nav {
-    background: #111;
-    padding: 15px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-nav a {
-    color: #00ffcc;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: white;
-}
-
-section {
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.hero {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 40px;
-    color: #00ffcc;
-}
-
-h2 {
-    margin-bottom: 20px;
-    color: #00ffcc;
-}
-
-.card {
-    background: #1a1a1a;
-    padding: 20px;
-    margin: 15px auto;
-    width: 80%;
-    max-width: 500px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #00ffcc33;
-}
-
-button {
-    padding: 10px 20px;
-    margin-top: 15px;
-    background: #00ffcc;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    background: white;
-}
-
-footer {
-    padding: 20px;
-    background: #111;
-    text-align: center;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>DESIREDDY SIRIREDDY | Full Stack & AI Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="logo">DSS</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tech">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#coding">Competitive</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 
-<!-- HOME -->
-<section id="home" class="hero">
-<h1>DESIREDDY SIRIREDDY</h1>
-<p>Computer Science Engineering Student</p>
-<br>
-<a href="https://github.com/Sirireddy1910" target="_blank">
-<button>View GitHub</button>
-</a>
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Designing Scalable Systems. Engineering Intelligent Solutions.</h1>
+        <p>2nd Year B.Tech CSE (Honors – Generative AI)</p>
+        <p class="typing-text"><span id="typing"></span></p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#" class="btn-secondary">Download Resume</a>
+            <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+    </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
-<h2>About Me</h2>
-<div class="card">
-<p>
-Passionate CSE student interested in Java (OOP), Machine Learning, 
-Web Development and Problem Solving. 
-Continuously learning and building innovative projects.
-</p>
-</div>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="glass-card">
+        <p>
+            I am a 2nd Year Computer Science Engineering (Honors – Generative AI) student 
+            with a strong foundation in Object-Oriented Programming using Java. 
+            I design backend architectures using Spring Boot and build scalable 
+            full-stack systems with React integration. My flagship AI Resume Screening 
+            and Job Matching System demonstrates practical NLP-based parsing, skill extraction, 
+            and intelligent automation. Through competitive programming, I continuously 
+            sharpen my algorithmic thinking and complexity analysis skills. 
+            I am passionate about designing robust APIs, structured data systems, 
+            and production-ready software architectures. 
+            My goal is to contribute as a Software Development Engineer or AI Intern 
+            where I can engineer scalable solutions with measurable impact.
+        </p>
+    </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills">
-<h2>Skills</h2>
-<div class="card">Java (OOP)</div>
-<div class="card">Machine Learning</div>
-<div class="card">HTML & CSS</div>
-<div class="card">Flask</div>
-<div class="card">Data Structures & Algorithms</div>
+<!-- ================= TECH STACK ================= -->
+<section id="tech" class="section">
+    <h2>Tech Stack</h2>
+
+    <div class="tech-grid">
+
+        <div class="glass-card tech-card">
+            <h3>Core Programming</h3>
+            <p><strong>C</strong></p>
+            <p><strong>Java:</strong> OOP, Collections, Multithreading, JDBC</p>
+            <p><strong>Python:</strong> ML Pipelines & Automation</p>
+        </div>
+
+        <div class="glass-card tech-card">
+            <h3>Frontend</h3>
+            <p>React.js – Component Architecture</p>
+            <p>HTML, CSS, JavaScript – Responsive UI</p>
+        </div>
+
+        <div class="glass-card tech-card">
+            <h3>Backend</h3>
+            <p>Spring Boot – REST API Design</p>
+            <p>Flask – AI Integration</p>
+        </div>
+
+        <div class="glass-card tech-card">
+            <h3>Databases</h3>
+            <p>MySQL | PostgreSQL | MongoDB</p>
+        </div>
+
+        <div class="glass-card tech-card">
+            <h3>AI / ML</h3>
+            <p>NLP Resume Parsing</p>
+            <p>Skill Extraction & ML Models</p>
+            <p>TensorFlow / Keras</p>
+        </div>
+
+        <div class="glass-card tech-card">
+            <h3>Tools</h3>
+            <p>Git & GitHub</p>
+            <p>IntelliJ | VS Code</p>
+            <p>Linux & CLI</p>
+        </div>
+
+    </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-<h2>Projects</h2>
-<div class="card">
-<h3>BuyBuddy</h3>
-<p>An intelligent shopping assistant platform.</p>
-</div>
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="glass-card project-card">
+            <h3>AI Resume Screening & Job Matching System ⭐</h3>
+            <p>
+                Built an NLP-driven system that parses resumes, extracts structured skills,
+                scores candidate-job similarity, and recommends suitable roles using ML.
+                Demonstrates intelligent automation and real-world AI application.
+            </p>
+            <p><strong>Tech:</strong> Python | ML | NLP | Flask | React</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>BuyBuddy</h3>
+            <p>
+                Full-stack e-commerce system with secure authentication,
+                dynamic product handling, and scalable backend REST APIs.
+            </p>
+            <p><strong>Tech:</strong> React | Spring Boot | MySQL</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>EmployeeEdge</h3>
+            <p>
+                Role-based employee management system with structured validation
+                logic and backend dashboard analytics.
+            </p>
+            <p><strong>Tech:</strong> Spring Boot | PostgreSQL</p>
+        </div>
+
+    </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact">
-<h2>Contact</h2>
-<div class="card">
-<p>Email: (Add Your Email Here)</p>
-<p>
-<a href="https://github.com/Sirireddy1910" target="_blank" style="color:#00ffcc;">GitHub</a>
-</p>
-<p>
-<a href="https://www.linkedin.com/in/desireddy-sirireddy-182aa5386/" target="_blank" style="color:#00ffcc;">LinkedIn</a>
-</p>
-</div>
+<!-- ================= COMPETITIVE ================= -->
+<section id="coding" class="section">
+    <h2>Competitive Programming</h2>
+
+    <div class="tech-grid">
+        <div class="glass-card">
+            <h3>CodeChef</h3>
+            <a href="https://www.codechef.com/users/route_score_60" target="_blank">View Profile</a>
+        </div>
+
+        <div class="glass-card">
+            <h3>LeetCode</h3>
+            <a href="https://leetcode.com/u/Desireddy_sirireddy/" target="_blank">View Profile</a>
+        </div>
+
+        <div class="glass-card">
+            <h3>Codeforces</h3>
+            <a href="https://codeforces.com/profile/Desireddy_sirireddy" target="_blank">View Profile</a>
+        </div>
+    </div>
 </section>
 
-<footer>
-© 2026 DESIREDDY SIRIREDDY | Portfolio
-</footer>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
 
+    <div class="glass-card contact-card">
+        <p>Email: your.email@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
-</html>
+</html> 
