@@ -4,7 +4,7 @@ Welcome to my personal portfolio repository! This website represents my journey 
 
 ## 🚀 Live Website
 
-🔗 **Portfolio:** https://sirireddy1910-github-n0n2py67u-sirireddy1910s-projects.vercel.app
+🔗 **Portfolio:** https://sirireddy1910-github-io.vercel.app/
 
 ---
 
